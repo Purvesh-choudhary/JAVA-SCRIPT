@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS</title>
+    <style>
+        body {
+            background-color: rgb(45, 50, 55);
+            color: rgb(133, 216, 9);
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>In Browser popup</h1>
+    <script>
+
+        alert("Welcome to the Gaming Arena");
+        let name = prompt("What is your Name : ", "Guest");
+        let age = prompt("What is your Age : ", "");
+
+        console.log(`name:${name} \nage:${age}`);
+
+        if (age >= 18) {
+            console.log("Logined Succesfully");
+
+        }
+        else {
+            console.log("Login Error!");
+        }
+
+        let temp = confirm("DO you really wanna buy it ?");
+
+        console.log(temp);
+
+
+    </script>
+
+</body>
+
+</html>
